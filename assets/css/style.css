@@ -1,0 +1,436 @@
+*{
+margin: 0;    
+padding: 0;
+}
+body{
+  font-size: 1.2em;  
+  background-color: rgb(195, 229, 231);
+  color: #555;
+}
+hr{
+border: solid 1px #e2e2f0;
+}
+
+p{
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+input[type="text"], input[type="password"], input[type="search"]{
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+input, textarea{
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+
+}
+h1, h2{
+    font: normal 170% "century gothic", arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+ }
+ h2{
+     font-size: 140%;
+ }
+ a, a:hover{
+     outline: none;
+     text-decoration: underline;
+     color: #0b4e2f;
+ }
+ ul{
+     margin: 2px 0 22px 17px ;
+ }
+ ul li{
+     margin: 0 0 6px 0;
+     padding: 0 0 4px 5px;
+     line-height: 1.5em;
+ }
+.header{ 
+    background-color: indigo;
+    height:177px;
+    font-size: .8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer{
+margin-left: auto;
+margin-right: auto;
+}
+.logo{
+    width: 880px;
+    padding-bottom: 40px;
+}
+.logo h1, .logo h2{
+    font: normal; 
+    font-size: 300%;
+    font-family: "century gothic", arial, sans-serif;
+    margin:0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+padding: 22px 0 0 0;
+color: #fff;
+letter-spacing: 0.1em;
+text-decoration: none;
+}
+.logo_text h2{
+    font-size: .9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+.menubar{
+    width: 900px;
+    height: 45px;
+}
+ul.menu{
+    float: right;
+}
+ul.menu li{
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.menu li a{
+    font: normal;
+    font-size:  100%;
+    font-family: sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}  
+ ul.menu li.selekted a{
+     color: #d8db1b
+ }
+ ul.menu li a:hover{
+     color: #e4ec;
+ }
+ .site_content{
+     width: 880px;
+     overflow: hidden;
+     margin: 20px auto 0 auto;
+     background-color: white;
+ }
+ .sidebar_container{
+     float: right;
+     width: 224px;
+ }
+ .sidebar{
+     float: right;
+     width: 222px;
+     padding: 5%;
+     margin: 0 0 16px 0;
+     border: solid 1px #f2f2f2;
+     border-radius: 5px;
+     background-color: #bad6df;
+
+ }
+ .btn{
+ padding: 8px;    
+ background-color: white;
+ cursor:pointer;
+ }
+ .sidebar h2{
+     color: #136;
+ }
+ .lables_passreg_text{
+font-size: .7em;
+margin-top: 3%;
+margin-left: 2%;
+ }
+ .sidebar ul{
+     margin: 0%;
+ }
+ .sidebar li{
+     list-style-type: none;
+     margin: 0 0 0 0;
+ }
+ .sidebar .rating_sidebar{
+     float: right;
+ }
+ .content{
+     text-align: left;
+     width: 620px;
+     padding: 0 0 0 5px;
+     float: left;
+ }
+ .content a{
+     text-decoration: none;
+ }
+ .footer{
+     width: 100%;
+     height: 100px;
+     padding: 28px 0 5px 5;
+     text-align: center;
+     background-color: darkslateblue;
+     color: #a8aa94;
+     margin-left: 0px;
+     margin-right: 0px;
+     min-width: 900px;
+ }
+ .inform_o_film{
+  margin-top: 2%;
+  margin-bottom: 4%;   
+ }
+ .inform_o_film .label{
+     font-size: 1em;
+ }
+ .inform_o_film .value{
+   font-size: 1.2em;  
+   color: rgb(3, 53, 3);
+   margin-right: 5%;
+
+ }
+ .footer a{
+   color: #a8aa94;  
+   text-decoration: none;
+ }
+ .footer a:hover{
+     color: white;
+     text-decoration: none;
+ }
+ .footer p{
+     padding: 0 0 10px 0;
+ }
+ .films_block{
+     margin-bottom: 5%;
+}
+.films_block img{
+     border:solid 5px #5d5d5d ;
+     border-radius: 5px;
+     margin-left: 2x;
+     margin-right: 2px;
+ }
+ .post .post_content{
+font-size: 0.8em;
+ }
+ .description_film{
+     margin-bottom: 15%;
+     text-align: justify;
+     margin-right: 2%;
+    
+ }
+ .description_film img{
+     float: left;
+     margin-right: 2%;
+     border-radius: 5px;
+     border: solid 5px #726970;
+}
+.reviews{
+  margin-bottom: 4%;
+  font-size: .9em;
+}
+ .review_name{
+    background-color: rgb(122, 116, 207);
+    color: rgb(241, 241, 243);
+    padding: 1%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.review_text{
+  padding-top: 2%;
+  padding-bottom: 2%; 
+  padding-left: 2%;
+}
+.send{
+    margin-bottom: 4%;
+}
+.send input[type="text"], textarea{
+border: solid 1 px rgb(102, 91, 91);
+margin-bottom: 2%;    
+} 
+.send input[type="text"]{
+    width: 98%;
+}
+.send textarea{
+    width: 624px;
+    height: 200px;
+}
+
+.send input[type="e-mail"]{
+    border: solid 1 px #999;
+    margin-bottom: 2%;  
+    width: 100%; 
+}
+
+.send input[type="submit"]{
+    background-color: #6748d4;
+    padding: 3%;
+    color: #e2e2f0;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+.info_film{
+background-color: #f9f9f9;   
+margin-bottom: 5%;
+height: 300px; 
+padding: 5%;
+text-align: justify;
+font-size: 85%;
+}
+.info_film img{
+ float: left;  
+ margin-right: 2%; 
+ border-radius: 5px;
+ border: solid 5px #a8aa94;
+ width: 25%;
+}
+.button{
+    background-color: #6748d4;
+    padding: 2%;
+    color: whitesmoke;
+    border-radius: 5px;
+    float: right;
+    margin-top: 3%;
+    clear: both;
+    font-size: 0.8em;
+}
+.button a{
+    color: yellow;
+}
+table{
+    width: 100%;
+    border: solid 2px #f4f4f4;
+}
+td{
+ padding: 2%;   
+ border: solid 2px #f4f4f4;
+}
+td img{
+ vertical-align: middle;   
+}
+th.center{
+    text-align: center;
+}
+td.center{
+    text-align: center;
+}
+.raiting{
+font-weight: bolder;
+}
+/*CSS mobile*/
+@media screen
+and (min-width: 220px)
+and (max-width: 568px) {
+.header{
+    background-color: #257965;
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+}   
+.logo{
+    width: 100%;
+} 
+.site_content{
+    width: 100%;
+}
+.menubar{
+    width: 100%;
+    height: 100%;
+}
+.site_content{
+    width: 100%;
+    text-align: center;
+}
+.sidebar_container{
+    display: none; /*скрываем весь элемент для мобильника*/
+}
+.footer{
+    display: none;  
+}
+ul.menu{
+    float: none;
+}
+ul.menu li{
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+.logo h1{
+    font: normal 235% sans-serif;
+}
+.logo h2{
+    font: normal 100% sans-serif;
+    color: #fffbfb; 
+}
+.content{
+    width: 100%;
+    text-align: center;
+}
+.content h1, h2{
+    font: normal 100%  arial sans-serif;
+}
+.films_block img{
+    width: 43%;
+}
+.post_content p{
+    line-height: 1.5em;
+    padding: 3%;
+    text-align: left;
+}
+.post p{
+    font-size: 120%;
+}
+/*для страницы фильм*/
+.info_film{
+    float: none;
+    height: 100%;
+        }
+.info_film img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.button{
+    float: none;
+    text-align: center;
+}
+/* для стриницы рейтинг*/
+table{
+display: block;
+}
+th{
+    font-size: 75%;
+ }
+ td{
+     padding: 0%;
+     margin: 0%;
+     font-size: 95%;
+     text-align: left;
+ }
+ /*просмотр фильма*/
+ iframe{
+     width: 88%;
+     height: 100%;
+ }
+ .description_film{
+    width: 90%;
+    text-align: left;
+    margin-left: 2%;
+ }
+ .description_film img{
+     float: none;
+     width:73%;
+     margin: 0;
+     display: block;
+     padding: 0;     
+     margin-left: 11%;
+     margin-bottom: 7%;
+ }
+.reviews{
+    text-align: left;
+    width: 96%;
+}
+.send input[type="text"]{
+    width: 80%;
+}
+.send textarea{
+    width: 85%;
+}
+ }
+
+
